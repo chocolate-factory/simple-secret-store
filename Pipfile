@@ -16,4 +16,7 @@ mypy = "*"
 python_version = "3.6"
 
 [scripts]
+mypy = "mypy pysss --ignore-missing-imports"
+pytest = "python setup.py test --addopts --cov=pysss"
+flake8 = "flake8 pysss"
 
