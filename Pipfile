@@ -17,6 +17,6 @@ python_version = "3.6"
 
 [scripts]
 mypy = "mypy pysss --ignore-missing-imports"
-test = "pytest --cov=pysss"
+test = "pytest tests --cov=pysss"
 lint = "flake8 pysss"
 
